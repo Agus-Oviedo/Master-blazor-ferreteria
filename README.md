@@ -19,7 +19,7 @@ Aplicación de gestión de ferretería desarrollada con **Blazor Hybrid (.NET MA
 
 ### 📦 Gestión de Productos
 - Visualización para todos los usuarios logueados.
-- ABM completo solo para `Admin`, modo lectura para `Empleado`.
+- ABM completo para `Admin` y `Empleado`.
 - Imágenes locales.
 - UI con tabla y botones de acción.
 
@@ -75,12 +75,6 @@ Usá estas credenciales para probar el sistema:
 
 ---
 
-## 📸 Capturas de pantalla
-
-¡Incluí capturas del login, lista de productos y usuarios para mostrar la UI!
-
----
-
 ## 📌 Autor
-
+Oviedo. Agustin
 Proyecto desarrollado como parte de una práctica de Blazor Hybrid – Ferretería.
