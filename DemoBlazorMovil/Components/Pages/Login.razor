@@ -1,0 +1,41 @@
+﻿@page "/login"
+@using DemoBlazorMovil.Services
+@inject NavigationManager Navigation
+@inject UsuarioService UsuarioService
+@inject SesionUsuario Sesion
+
+<h3>Iniciar Sesión</h3>
+
+<div class="card p-4 shadow" style="max-width: 400px; margin:auto;">
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input class="form-control" @bind="email" placeholder="usuario@demo.com" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Clave</label>
+        <input class="form-control" type="password" @bind="clave" placeholder="********" />
+    </div>
+    <button class="btn btn-primary w-100" @onclick="IniciarSesion">Iniciar Sesión</button>
+    <p class="text-danger mt-2">@mensajeError</p>
+</div>
+
+@code {
+    private string email = string.Empty;
+    private string clave = string.Empty;
+    private string mensajeError = string.Empty;
+
+    private async Task IniciarSesion()
+    {
+        var usuario = await UsuarioService.ValidarLoginAsync(email, clave);
+        if (usuario != null)
+        {
+            Sesion.IniciarSesion(usuario); // ✅ Guardamos el usuario actual
+            mensajeError = string.Empty;
+            Navigation.NavigateTo("/productos"); // ✅ Redirigimos al inicio
+        }
+        else
+        {
+            mensajeError = "Credenciales inválidas.";
+        }
+    }
+}

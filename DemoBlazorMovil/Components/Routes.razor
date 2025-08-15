@@ -1,0 +1,16 @@
+﻿@namespace DemoBlazorMovil.Pages
+@using DemoBlazorMovil.Components.Layout
+@using Microsoft.AspNetCore.Components.Routing
+
+<Router AppAssembly="@typeof(MauiProgram).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <h1>Página no encontrada</h1>
+            <p>La ruta solicitada no existe.</p>
+        </LayoutView>
+    </NotFound>
+</Router>

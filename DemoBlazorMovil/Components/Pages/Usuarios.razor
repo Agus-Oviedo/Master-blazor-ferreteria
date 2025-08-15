@@ -1,0 +1,113 @@
+﻿@page "/usuarios"
+@using DemoBlazorMovil.Models
+@using DemoBlazorMovil.Services
+@inject UsuarioService UsuarioService
+@inject NavigationManager NavigationManager
+@inject SesionUsuario Sesion
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <span class="fw-bold">👤 @Sesion.UsuarioActual?.Nombre (@Sesion.UsuarioActual?.Rol)</span>
+    </div>
+    <div>
+        <button class="btn btn-outline-secondary" @onclick="CerrarSesion">
+            <i class="bi bi-box-arrow-right"></i> Cerrar sesión
+        </button>
+    </div>
+</div>
+
+<h3 class="text-center mb-4">👥 Lista de Usuarios</h3>
+
+<div class="text-center mb-3">
+    <button class="btn btn-success" @onclick="CrearUsuario">
+        <i class="bi bi-person-plus-fill"></i> Crear Usuario
+    </button>
+</div>
+
+@if (listaUsuarios == null)
+{
+    <p class="text-center">Cargando usuarios...</p>
+}
+else
+{
+    <table class="table table-bordered table-hover align-middle">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Rol</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (listaUsuarios.Count > 0)
+            {
+                @foreach (var u in listaUsuarios)
+                {
+                    <tr>
+                        <td class="text-center">
+                            <img src="@u.Imagen" width="60" height="60" class="img-thumbnail" alt="@u.Nombre" />
+                        </td>
+                        <td>@u.Nombre</td>
+                        <td>@u.Email</td>
+                        <td>@u.Rol</td>
+                        <td class="text-center">
+                            <div class="d-flex justify-content-center gap-2">
+                                <button class="btn btn-sm btn-primary" @onclick="() => EditarUsuario(u)">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                                <button class="btn btn-sm btn-danger" @onclick="() => BorrarUsuario(u)">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">No hay usuarios registrados.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<Usuario>? listaUsuarios;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!Sesion.EstaLogueado || Sesion.UsuarioActual?.Rol != "Admin")
+        {
+            NavigationManager.NavigateTo("/login", forceLoad: true);
+            return;
+        }
+
+        listaUsuarios = await UsuarioService.ObtenerTodosAsync();
+    }
+
+    void CrearUsuario()
+    {
+        NavigationManager.NavigateTo("/usuario/0");
+    }
+
+    void EditarUsuario(Usuario u)
+    {
+        NavigationManager.NavigateTo($"/usuario/{u.Id}");
+    }
+
+    async Task BorrarUsuario(Usuario u)
+    {
+        await UsuarioService.EliminarAsync(u.Id);
+        listaUsuarios = await UsuarioService.ObtenerTodosAsync(); // refrescar
+    }
+
+    void CerrarSesion()
+    {
+        Sesion.CerrarSesion();
+        NavigationManager.NavigateTo("/login", forceLoad: true);
+    }
+}

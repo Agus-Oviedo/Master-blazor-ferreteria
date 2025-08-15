@@ -1,0 +1,103 @@
+﻿@page "/productos"
+@using DemoBlazorMovil.Models
+@using DemoBlazorMovil.Services
+@inject ProductoService productoService
+@inject NavigationManager navigationManager
+@inject SesionUsuario Sesion
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <span class="fw-bold">👤 @Sesion.UsuarioActual?.Nombre (@Sesion.UsuarioActual?.Rol)</span>
+    </div>
+    <div>
+        <button class="btn btn-outline-secondary" @onclick="CerrarSesion">
+            <i class="bi bi-box-arrow-right"></i> Cerrar sesión
+        </button>
+    </div>
+</div>
+
+<h3 class="text-center mb-4">📦 Lista de Productos</h3>
+
+<div class="text-center mb-3">
+    <button class="btn btn-primary" @onclick="CrearProducto">
+        <i class="bi bi-plus-circle"></i> Crear Producto
+    </button>
+</div>
+
+@if (listaProductos == null)
+{
+    <p class="text-center">Cargando productos...</p>
+}
+else if (listaProductos.Count == 0)
+{
+    <p class="text-center">No hay productos disponibles.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var producto in listaProductos)
+            {
+                <tr>
+                    <td class="text-center">
+                        <img src="@producto.Imagen" width="80" height="80" class="img-thumbnail" alt="@producto.Nombre" />
+                    </td>
+                    <td>@producto.Nombre</td>
+                    <td>$@producto.Precio</td>
+                    <td class="text-center">
+                        <button class="btn btn-sm btn-primary me-1" @onclick="() => EditarProducto(producto)">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => BorrarProducto(producto)">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<Producto>? listaProductos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!Sesion.EstaLogueado)
+        {
+            navigationManager.NavigateTo("/login", forceLoad: true);
+            return;
+        }
+
+        listaProductos = await productoService.GetProductosAsync();
+    }
+
+    private void EditarProducto(Producto producto)
+    {
+        navigationManager.NavigateTo($"/producto/{producto.Id}");
+    }
+
+    private void BorrarProducto(Producto producto)
+    {
+        Console.WriteLine($"Borrar Producto: {producto.Nombre}");
+    }
+
+    private void CrearProducto()
+    {
+        navigationManager.NavigateTo("/producto/0");
+    }
+
+    private void CerrarSesion()
+    {
+        Sesion.CerrarSesion();
+        navigationManager.NavigateTo("/login", forceLoad: true);
+    }
+}

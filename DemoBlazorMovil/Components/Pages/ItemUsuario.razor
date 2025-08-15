@@ -1,0 +1,95 @@
+﻿@page "/usuario/{Id:int}"
+@using DemoBlazorMovil.Models
+@using DemoBlazorMovil.Services
+@inject UsuarioService UsuarioService
+@inject NavigationManager Nav
+
+<h3>@(Id == 0 ? "Crear Usuario" : "Editar Usuario")</h3>
+
+<div class="card p-4 shadow-sm">
+    <EditForm Model="usuario" OnValidSubmit="Guardar">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label>Nombre:</label>
+            <InputText class="form-control" @bind-Value="usuario.Nombre" />
+        </div>
+
+        <div class="mb-3">
+            <label>Email:</label>
+            <InputText class="form-control" @bind-Value="usuario.Email" />
+        </div>
+
+        <div class="mb-3">
+            <label>Contraseña:</label>
+            <InputText class="form-control" @bind-Value="usuario.Clave" type="password" />
+        </div>
+
+        <div class="mb-3">
+            <label>Rol:</label>
+            <InputSelect class="form-select" @bind-Value="usuario.Rol">
+                <option value="">Seleccione un rol</option>
+                <option>Admin</option>
+                <option>Empleado</option>
+            </InputSelect>
+        </div>
+
+        <div class="mb-3">
+            <label>Imagen (nombre archivo):</label>
+            <InputText class="form-control" @bind-Value="usuario.Imagen" />
+            <small class="text-muted">Ej: img/admin.jpg</small>
+        </div>
+
+        <div class="mt-4 d-flex justify-content-end gap-2">
+            <button type="submit" class="btn btn-success">
+                <i class="bi bi-save"></i> Guardar
+            </button>
+            <button type="button" class="btn btn-secondary" @onclick="Cancelar">
+                <i class="bi bi-x-circle"></i> Cancelar
+            </button>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Usuario usuario = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != 0)
+        {
+            var existente = await UsuarioService.ObtenerPorIdAsync(Id);
+            if (existente != null)
+            {
+                usuario = new Usuario
+                {
+                    Id = existente.Id,
+                    Nombre = existente.Nombre,
+                    Email = existente.Email,
+                    Clave = existente.Clave,
+                    Rol = existente.Rol,
+                    Imagen = existente.Imagen
+                };
+            }
+        }
+    }
+
+    private async Task Guardar()
+    {
+        if (Id == 0)
+            await UsuarioService.AgregarAsync(usuario);
+        else
+            await UsuarioService.EditarAsync(usuario);
+
+        Nav.NavigateTo("/usuarios");
+    }
+
+    void Cancelar()
+    {
+        Nav.NavigateTo("/usuarios");
+    }
+}

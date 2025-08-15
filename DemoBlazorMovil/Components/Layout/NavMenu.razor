@@ -1,0 +1,58 @@
+﻿@using DemoBlazorMovil.Services
+@inject SesionUsuario Sesion
+@implements IDisposable
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">DemoBlazorMovil</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        @if (Sesion.EstaLogueado)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="productos">
+                    <i class="bi bi-hammer me-2" aria-hidden="true"></i> Productos
+                </NavLink>
+            </div>
+
+            @if (Sesion.UsuarioActual?.Rol == "Admin")
+            {
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="usuarios">
+                        <i class="bi bi-people-fill me-2" aria-hidden="true"></i> Usuarios
+                    </NavLink>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="login">
+                    <i class="bi bi-box-arrow-in-right me-2" aria-hidden="true"></i> Login
+                </NavLink>
+            </div>
+        }
+    </nav>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        Sesion.OnCambioSesion += RefrescarMenu;
+    }
+
+    void RefrescarMenu()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        Sesion.OnCambioSesion -= RefrescarMenu;
+    }
+}

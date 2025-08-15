@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\services\\sesionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\services\\sesionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\pages\\usuarios.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\pages\\usuarios.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\pages\\listaproductos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\pages\\listaproductos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\pages\\itemproducto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\pages\\itemproducto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\pages\\itemusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\pages\\itemusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\demoblazormovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\demoblazormovil.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|c:\\users\\agus_\\downloads\\demoblazormovil-master\\demoblazormovil-master\\demoblazormovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B86C54-B0DC-4FFF-BA65-0570626EED77}|DemoBlazorMovil\\DemoBlazorMovil.csproj|solutionrelative:demoblazormovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T21:16:29.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Layout\\NavMenu.razor*",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Layout\\NavMenu.razor*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:38:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuarios.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\Usuarios.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Pages\\Usuarios.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\Usuarios.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Pages\\Usuarios.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:20:38.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemProducto.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ItemProducto.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Pages\\ItemProducto.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ItemProducto.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Pages\\ItemProducto.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:46:20.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Usuario.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:17:11.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Prueba.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Prueba.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Models\\Prueba.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Prueba.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\Models\\Prueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:45:45.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SesionUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\SesionUsuario.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Services\\SesionUsuario.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\SesionUsuario.cs*",
+              "RelativeToolTip": "DemoBlazorMovil\\Services\\SesionUsuario.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:41:48.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListaProductos.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ListaProductos.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Pages\\ListaProductos.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ListaProductos.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Pages\\ListaProductos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:53:29.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Models\\Producto.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:52:36.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemUsuario.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ItemUsuario.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Pages\\ItemUsuario.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Pages\\ItemUsuario.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Pages\\ItemUsuario.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:32:25.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MainPage.xaml.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:51:50.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Routes.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:34:40.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MauiProgram.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\MauiProgram.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:18:52.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:35:43.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\index.html",
+              "RelativeToolTip": "DemoBlazorMovil\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-25T14:54:17.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:18:14.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Services\\ProductoService.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\Services\\ProductoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:49:56.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\MainPage.xaml",
+              "RelativeToolTip": "DemoBlazorMovil\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:51:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\Components\\_Imports.razor",
+              "RelativeToolTip": "DemoBlazorMovil\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T14:34:47.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DemoBlazorMovil.csproj",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\DemoBlazorMovil.csproj",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\DemoBlazorMovil.csproj",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\DemoBlazorMovil.csproj",
+              "RelativeToolTip": "DemoBlazorMovil\\DemoBlazorMovil.csproj",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-02T15:45:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\App.xaml",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\App.xaml",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\App.xaml",
+              "RelativeToolTip": "DemoBlazorMovil\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T13:49:52.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DemoBlazorMovil\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\App.xaml.cs",
+              "RelativeToolTip": "DemoBlazorMovil\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:49:50.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

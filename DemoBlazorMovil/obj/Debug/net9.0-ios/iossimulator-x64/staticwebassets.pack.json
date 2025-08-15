@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\DemoBlazorMovil.styles.css",
+      "PackagePath": "staticwebassets\\DemoBlazorMovil.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\alicate.png",
+      "PackagePath": "staticwebassets\\img\\alicate.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\allen.png",
+      "PackagePath": "staticwebassets\\img\\allen.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\cinta.png",
+      "PackagePath": "staticwebassets\\img\\cinta.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\clavos.png",
+      "PackagePath": "staticwebassets\\img\\clavos.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\destornillador.png",
+      "PackagePath": "staticwebassets\\img\\destornillador.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\generico.jpg",
+      "PackagePath": "staticwebassets\\img\\generico.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\llave.png",
+      "PackagePath": "staticwebassets\\img\\llave.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\matillo.png",
+      "PackagePath": "staticwebassets\\img\\matillo.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\nivel.png",
+      "PackagePath": "staticwebassets\\img\\nivel.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\sierra.png",
+      "PackagePath": "staticwebassets\\img\\sierra.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\img\\taladro.png",
+      "PackagePath": "staticwebassets\\img\\taladro.png"
+    },
+    {
+      "Id": "C:\\Users\\agus_\\Downloads\\DemoBlazorMovil-master\\DemoBlazorMovil-master\\DemoBlazorMovil\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.DemoBlazorMovil.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.DemoBlazorMovil.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.DemoBlazorMovil.props",
+      "PackagePath": "build\\DemoBlazorMovil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.DemoBlazorMovil.props",
+      "PackagePath": "buildMultiTargeting\\DemoBlazorMovil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.DemoBlazorMovil.props",
+      "PackagePath": "buildTransitive\\DemoBlazorMovil.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

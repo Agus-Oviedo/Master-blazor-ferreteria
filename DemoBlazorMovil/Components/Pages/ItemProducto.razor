@@ -1,0 +1,83 @@
+﻿@page "/producto/{id:int}"
+@using DemoBlazorMovil.Models
+@using DemoBlazorMovil.Services
+@inject NavigationManager navigationManager
+@inject ProductoService productoService
+
+<h3>
+    @(id == 0 ? "Crear Producto" : "Editar Producto")
+</h3>
+
+@if (producto == null)
+{
+    <p>Cargando producto...</p>
+}
+else
+{
+    <EditForm OnValidSubmit="Grabar" Model="@producto">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mt-3">
+            <InputText class="form-control" @bind-Value="@producto.Nombre" placeholder="Nombre" />
+        </div>
+        <div class="mt-3">
+            <InputNumber class="form-control" @bind-Value="@producto.Precio" placeholder="Precio" />
+        </div>
+        <div class="mt-3">
+            <InputText class="form-control" @bind-Value="@producto.Descripcion" placeholder="Descripción" />
+        </div>
+        <div class="mt-3">
+            <InputNumber class="form-control" @bind-Value="@producto.Stock" placeholder="Stock" />
+        </div>
+        <div class="mt-3">
+            <InputText class="form-control" @bind-Value="@producto.Imagen" placeholder="Ruta de Imagen" />
+        </div>
+        <div class="mt-3">
+            <img src="@producto.Imagen" alt="Imagen del producto" style="width: 100px; height: 100px;" />
+        </div>
+
+        <div class="text-center mt-3">
+            <button class="btn btn-primary me-2" type="button" @onclick="Volver">Cancelar</button>
+            <button class="btn btn-success" type="submit">Grabar</button>
+        </div>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    public Producto? producto;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (id == 0)
+        {
+            producto = new Producto();
+        }
+        else
+        {
+            producto = await productoService.GetProductoAsync(id);
+        }
+    }
+
+    public void Volver()
+    {
+        navigationManager.NavigateTo("/productos");
+    }
+
+    public async Task Grabar()
+    {
+        if (id == 0)
+        {
+            await productoService.AddProductoAsync(producto!);
+        }
+        else
+        {
+            await productoService.UpdateProductoAsync(producto!);
+        }
+
+        navigationManager.NavigateTo("/productos");
+    }
+}
